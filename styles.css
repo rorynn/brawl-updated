@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: blanchedalmond;
+
+}
+header{
+    background-color:orange;
+    padding: 2px;
+    margin: 2px;
+    align-items: center;  
+
+}
+.red{
+    color: red;
+   
+}
+.rod{
+    background-color: gray;
+    border-radius: 120px ;
+    padding: 5px;
+    margin: 5px;
+}
+footer{
+    background-color: orange;
+    padding: 5px;
+    margin: 5px;
+    font-size: larger;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex; 
+
+}
+a{
+    color: aliceblue;
+}
+img{
+  justify-content:center;
+    border:10px double black;
+}
+.dd{
+    font-family:Italian;
+}
+.gg{
+    flex-wrap:wrap;
+    
+}
+span{
+    color:rgb(4, 2, 136);
+}
