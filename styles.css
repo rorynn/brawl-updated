@@ -27,16 +27,17 @@ footer{
     margin: 5px;
     font-size: larger;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   
-
 }
 a{
     color: aliceblue;
 }
 img{
-    border:10px double black;
-    width:300px;
-    justify-content:space-around;
+    width: 100%;           
+    height: auto;          
+    border: 3px groove black;
+    border-radius: 10px;
+    padding: 2px;
+    object-fit: cover; 
   
 }
 .dd{
@@ -50,11 +51,22 @@ img{
 span{
     color:rgb(4, 2, 136);
 }
-.png{
-    display:flex;
-    justify-content: space-between ;
+.png {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
 
+.png article {
+    flex: 0 1 30%;
+    box-sizing: border-box;
 }
-.pin{
-    height:168px; 
-}
+.flex {
+    display: flex;        
+    flex-wrap: wrap;       
+    justify-content: center; 
+    margin: 0 auto;
+    width: 80%;
+    gap: 10px;
+  }
