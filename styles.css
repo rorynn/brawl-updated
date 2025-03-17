@@ -27,18 +27,21 @@ footer{
     margin: 5px;
     font-size: larger;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: flex; 
+   
 
 }
 a{
     color: aliceblue;
 }
 img{
-  justify-content:center;
     border:10px double black;
+    width:300px;
+    justify-content:space-around;
+  
 }
 .dd{
     font-family:Italian;
+    font-size:16px;
 }
 .gg{
     flex-wrap:wrap;
@@ -46,4 +49,12 @@ img{
 }
 span{
     color:rgb(4, 2, 136);
+}
+.png{
+    display:flex;
+    justify-content: space-between ;
+
+}
+.pin{
+    height:168px; 
 }
